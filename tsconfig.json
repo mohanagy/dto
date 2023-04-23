@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "ESNext", "ES2020"],
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".nyc_output",
+    ".coverage",
+    ".vscode",
+    ".idea",
+    ".git"
+  ]
+}
